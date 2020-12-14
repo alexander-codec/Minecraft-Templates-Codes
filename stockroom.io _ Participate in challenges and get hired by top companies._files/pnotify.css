@@ -1,0 +1,173 @@
+/*
+Author  : Hunter Perrin
+Version : 3.0.0
+Link    : http://sciactive.com/pnotify/
+*/
+/* -- Notice */
+.ui-pnotify {
+    top: 36px;
+    right: 36px;
+    position: absolute;
+    height: auto;
+    z-index: 2;
+}
+body > .ui-pnotify {
+    /* Notices in the body context should be fixed to the viewport. */
+    position: fixed;
+    /* Ensures notices are above everything */
+    z-index: 100040;
+}
+.ui-pnotify-modal-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+body > .ui-pnotify-modal-overlay {
+    position: fixed;
+    z-index: 100039;
+}
+.ui-pnotify.ui-pnotify-in {
+    display: block !important;
+}
+.ui-pnotify.ui-pnotify-move {
+    transition: left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-slow {
+    transition: opacity .6s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-slow.ui-pnotify.ui-pnotify-move {
+    transition: opacity .6s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-normal {
+    transition: opacity .4s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-normal.ui-pnotify.ui-pnotify-move {
+    transition: opacity .4s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-fast {
+    transition: opacity .2s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-fast.ui-pnotify.ui-pnotify-move {
+    transition: opacity .2s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-in {
+    opacity: 1;
+}
+.ui-pnotify .ui-pnotify-shadow {
+    -webkit-box-shadow: 0px 6px 28px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 6px 28px 0px rgba(0,0,0,0.1);
+    box-shadow: 7px 7px 16px rgba(0, 0, 0, 0.2);
+}
+.ui-pnotify-container {
+    background-position: 0 0;
+    padding: .8em;
+    height: 100%;
+    margin: 0;
+}
+.ui-pnotify-container:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.ui-pnotify-container.ui-pnotify-sharp {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.ui-pnotify-title {
+    display: block;
+    margin-bottom: .4em;
+    margin-top: 0;
+}
+.ui-pnotify-text {
+    display: block;
+}
+.ui-pnotify-icon, .ui-pnotify-icon span {
+    display: block;
+    float: left;
+    margin-right: .2em;
+}
+/* Alternate stack initial positioning. */
+.ui-pnotify.stack-topleft, .ui-pnotify.stack-bottomleft {
+    left: 25px;
+    right: auto;
+}
+.ui-pnotify.stack-bottomright, .ui-pnotify.stack-bottomleft {
+    bottom: 25px;
+    top: auto;
+}
+.ui-pnotify.stack-modal {
+    left: 50%;
+    right: auto;
+    margin-left: -150px;
+}
+
+/* toast start */
+.toast_button {
+	margin: 15px 0px 0px 0px;
+	color: white;
+	padding: 10px 0px !important;
+	font-family: CircularStd-Black;
+	width: 150px;
+	letter-spacing: 0.4px;
+}
+
+.brighttheme, .brighttheme h4 {
+	background-color: #3d3d3d;
+	color: white;
+}
+
+.brighttheme-success .img_div, .brighttheme-success .toast_button {
+	background-color: #7cb958;
+}
+
+.brighttheme-error .img_div, .brighttheme-error .toast_button {
+	background-color: #db5245;
+}
+
+.brighttheme-info .img_div, .brighttheme-info .toast_button {
+	background-color: #f29220;
+}
+
+.brighttheme-info .toaster_icon{
+	height: 25px;
+	width: 25px;
+	margin-top: 12px;
+}
+
+.img_div {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	left: 88px;
+	top: -38px;
+}
+
+.toaster_icon {
+	margin-top: 15px;
+	height: 20px;
+	max-width: none;
+}
+
+.toast_title {
+	margin-top: -25px;
+	font-size: 19px;
+	font-family: CircularStd-Black;
+}
+
+.toast_msg {
+	margin-top: -15px;
+	font-size: 13px;
+}
+
+/* toast end */

@@ -1,0 +1,302 @@
+.profile-social i:HOVER {
+  color: #e83f53 ;
+}
+.columns + .columns:last-child{float: left;}
+
+
+/* Material design start */
+* {
+	box-sizing: border-box;
+}
+
+img.md-close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 25px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+img.md-close:hover {
+	opacity: 1;
+}
+
+.submit-codes .columns {
+	padding: 5px 50px;
+}
+
+h1, h2, h3, h6, p, body {
+	font-family: CircularStd-Book;
+}
+
+*:focus {
+	outline: 0;
+}
+
+.timer {
+	line-height: 1;
+}
+
+.timer img {
+	width: 20px;
+	margin-left: 5px;
+	margin-bottom: 6px;
+}
+
+.timer span {
+	font-size: 25px;
+	font-weight: 100 !important;
+	margin-left: 20px;
+}
+
+.timer p {
+	padding-top: 0px !important;
+	font-size: 8px;
+}
+
+.registered_button {
+	background-color: #90cb69 !important;
+}
+
+.registered_button:HOVER {
+	background-color: #90cb69;
+}
+
+button {
+	font-family: CircularStd-Black;
+}
+
+section.main {
+	min-height: 400px;
+	background-color: white;
+}
+
+.profile-header {
+	margin-bottom: 50px;
+	background-color: #303046;
+}
+
+h1 {
+	padding-top: 80px;
+	color: white;
+}
+
+h2 {
+	font-size: 27px;
+}
+
+.h-buttons {
+	color: white;
+	line-height: 2.4;
+	font-size: 18px;
+	font-family: CircularStd-Book;
+	letter-spacing: 0.6px;
+}
+
+
+.profile h5 {
+	color: #999999;
+	font-family: CircularStd-Book;
+}
+
+.edit-btn {
+	font-size: 10px !important;
+	padding: 6px 12px !important;
+	margin-top: 10px;
+}
+
+.user-details img {
+	float: left;
+	margin-top: 6px;
+}
+
+.profile-social img {
+	width: 20px;
+	margin-bottom: 9px;
+}
+
+.profile-social i {
+	color: #999999;
+	font-size: 22px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.user-details h5 {
+	margin-left: 20px;
+}
+
+.nav-bar {
+	border-bottom: 2px solid #e5e5e5;
+	background-color: white;
+	height: 82px;
+}
+
+.nav-bar .row {
+	margin-bottom: -20px;
+}
+
+.highlight {
+	border-bottom: 3px solid #E83F53;
+	padding-bottom: 20px;
+}
+
+ul.menu {
+	margin-top: 25px;
+}
+
+ul.menu li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+	padding-right: 1px;
+	font-family: CircularStd-Book;
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+
+
+.highlight a {
+	color: black !important;
+}
+
+input[type=search] {
+	color: black;
+	height: 70px;
+	margin-bottom: 9px;
+	font-size: 20px;
+	background-color: #f7f7f7;
+	border: none;
+}
+
+.challenge_section {
+	background-color: #ebebeb;
+	margin-top: -10px;
+}
+
+
+.item-wrapper {
+	margin: 30px 0px 5px 0px;
+	/* box-shadow: 0px 0px 30px #aaa; */
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.2s ease-in-out;
+}
+
+.item-wrapper span {
+	color: black;
+}
+
+.ch-header {
+	background-color: #f9f9f9;
+	margin: 0px !important;
+	padding: 15px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.w2 {
+	width: 20%;
+}
+
+.w5 {
+	width: 55%;
+}
+
+.host-logo {
+	min-width: 40px;
+	width: 60px;
+}
+
+.p_cont {
+	padding-top: 13px;
+}
+
+.ch-footer {
+	margin: 0px !important;
+	padding: 15px;
+	min-height: 71px;
+}
+
+.ch-footer span {
+	color: #e83f53;
+	font-weight: 600
+}
+
+
+.ch-footer p {
+	padding-top: 8px;
+}
+
+.item-wrapper:hover {
+	/* box-shadow: 0px 15px 30px #aaa; */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px
+		rgba(0, 0, 0, 0.23);
+}
+
+.ch-type {
+	border: 1px solid #d0d0d0;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+.ch-type img {
+	padding-bottom: 3px;
+	width: 10px;
+}
+
+
+
+
+
+.item-wrapper  h3 {
+	font-size: 20px;
+}
+
+
+
+p {
+	color: #a7a7a7;
+	font-size: 13px;
+	margin-bottom: 0;
+	letter-spacing: 0.4px;
+}
+header.company_header {
+	margin-bottom: 50px;
+	background-color: #303046;
+}
+.about_company h5 {
+	margin-top: 10px;
+}
+.about_company p {
+	margin-top: 12px;
+	font-size: 14px;
+}
+.ch-type-c img {
+	padding-bottom: 3px;
+	width: 30px;
+}
+.ch-type-c span {
+	margin-left: 5px;
+}
+.ch-type-c {
+	margin-top: 5px;
+	min-height: 60px;
+}
+.date-class {
+	min-height: 90px;
+}
+.ch-footer-c span {
+	color: #e83f53;
+	font-size: 25px;
+	margin-right: 5px;
+}
+.ch-footer-c p {
+	color: #a7a7a7;
+	font-size: 13px;
+}
+.ch-footer-c {
+	margin: 0px !important;
+	padding: 15px;
+}

@@ -1,0 +1,763 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/amble-regular-webfont.eot');
+    src: url('../fonts/amble-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amble-regular-webfont.woff') format('woff'),
+         url('../fonts/amble-regular-webfont.ttf') format('truetype'),
+         url('../fonts/amble-regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 	font-family: 'ambleregular'; }
+
+h1 { font-family:'chunkfiveroman'; font-weight: normal!important; }
+.flex-info strong { font-family:'chunkfiveroman'; }
+.da-slider { display:none; }
+
+
+a { color:#8b8a8a; text-decoration:none; }
+
+a:hover,
+a:focus {
+  color: #5cc2b4;
+}
+
+a:focus {
+  outline:0;
+}
+
+header, section {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+header { 
+	position: relative;
+	z-index: 1000000;
+	background:#2c3134;
+}
+
+nav { height:44px; padding:5px 0; }
+
+.sticky { 
+	position:fixed; 
+	width:100%;
+	background:#2c3134;
+} 
+
+header ul { 
+	display:none;  
+	width:100%;
+	clear:both;
+	float:left;
+	padding:0;
+	margin:0; 	
+}	
+header li { 
+	width:100%; 
+	margin:0;
+	border-top:1px solid #CCC;
+	background:#2c3134;
+}
+
+header li a { 
+	width:100%;
+	text-align:center;
+	display:block;
+	font-weight:bold;
+	text-transform:uppercase; 
+	text-decoration:none;
+	color:#fff;
+	line-height:26px;
+	padding:5px;
+}
+
+header .mobi-nav { 
+	display:block; 
+	background:url("../images/mobi-btn.jpg") center center no-repeat; 
+	width:19px;
+	height:44px;
+	float:right;
+	margin:0 10px 0 0;
+}
+
+header .logo { 
+	display:block; 
+	float:left;
+	text-indent:-9999px; 
+	width:244px;
+	height:44px;
+	background:url("../images/mobi-logo.jpg") no-repeat;
+}
+
+#about { 
+	text-align:center; 
+	background:#54b8aa url("../images/background.jpg") repeat fixed 50% 0; 
+	position:relative; 
+	color:#fff; 
+}
+
+#about p { width:96%; margin:0 auto 20px; }
+
+#about h1 { 
+	text-transform:uppercase; 
+	color:#fff; 
+	padding:0;
+}
+
+#about a.contact { display:block; background:#c0392b; color:#fff; width:140px; padding:10px 0; margin:0 auto 20px; border-bottom:6px solid #a53125; }
+
+#services { 
+	background:#fff; 
+	text-align:center; 
+	color:#2c3134;
+}
+
+#services h1 { 
+	color:#2c3134; 
+	text-transform:uppercase; 
+}
+
+#services .service { 
+	text-align:center;
+	border-bottom:1px solid #ccc;
+	padding:20px 0;
+}
+
+#services .service:last-child {
+	border:none;
+}
+
+#services h3 {
+	text-transform:uppercase;
+	color:#2c3134;
+	font-family:'chunkfiveroman'; 
+	font-weight: normal!important;
+	line-height:24px;
+}
+
+#services p { 
+	width:80%;
+	margin:10px auto 0; 
+	color:#716f71;
+}
+
+#contact { 
+	text-align:center; 
+	color:#716f71; 
+}
+#contact h1 {
+	color:#2c3134;   
+	text-transform:uppercase; 
+}
+
+#contact h2 a { color:#8b8a8a; text-decoration:none; }
+#contact h2 a:hover { text-decoration:underline; }
+#contact span { width:200px; margin:30px auto 0; display:block; }
+#contact span a {    
+	display: block;
+	clear:none;
+    float: left;
+	width:40px;
+	height:40px;
+	margin:0 0 30px 0;
+}
+#contact span a:hover, #contact span a:focus { color:#8b8a8a; text-decoration:none; }
+#contact span a.email { background:url("../images/link-email.jpg") no-repeat; background-size:100%; }
+#contact span a.linkedin { background:url("../images/link-linkedin.jpg") no-repeat; background-size:100%; }
+#contact span a.pinterest { background:url("../images/link-pinterest.jpg") no-repeat; background-size:100%; }
+#contact span a.twitter { background:url("../images/link-twitter.jpg") no-repeat; background-size:100%; }
+#contact span a.google { background:url("../images/link-google.jpg") no-repeat; margin-right:0; background-size:100%; }
+#contact p { font-size:20px; }
+
+#work { 
+	text-align:center; 
+	background:#c0392b;
+}	
+	
+#work h1 { 
+	text-transform:uppercase; 
+	color:#fff; 
+}
+
+footer {	
+	text-align:center; 
+	color:#fff; 
+	clear: both;
+	float: left;
+	width: 100%;
+	background:#2c3134; 	
+}
+
+footer a { color:#fff; }
+
+.opl a { display:none; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen 
+and (min-width : 1100px) {
+	.flexslider-container { display:none; }
+	.da-slider { display:block; }
+	
+	section {
+		padding: 60px 0;
+	}
+	
+	header { 
+		height:74px; padding:0;
+	}
+	
+	nav { height:74px; padding:0; }
+	
+	header ul { 
+		display:block;
+		clear:none;
+		float:right; 
+		list-style:none;
+		border:none;
+		width:auto;
+		margin-right: 24px;
+	}
+	
+	header li { 
+		border:none;
+		width:auto;
+		float:left;
+		margin:0 0 0 30px;
+	}
+	
+	header li a { 
+		font-size:16px;
+		font-weight:normal;
+		text-align:left;
+		line-height:62px;
+	}
+	
+	header .logo { 
+	    float:left; 
+		margin:0 0 0 0;
+		display:block; 
+		text-indent:-9999px; 
+		width:267px;
+		height:74px;
+		background:url("../images/logo.jpg") no-repeat;
+	}
+	
+	header .mobi-nav { display:none; }
+	
+	.devices { 
+		display:block;
+		width:540px;
+		position:relative;
+		float:right;
+		margin-top:-150px;
+	}
+		.devices .device-iphone { 
+			display:block; 
+			width:125px; 
+			height:253px; 
+			background:url("../images/iphone.png") no-repeat;
+			position:absolute;
+			top:140px;
+			left:0;
+			z-index:2;
+		}
+		.devices .device-laptop { 
+			display:block; 
+			width:561px; 
+			height:331px; 
+			background:url("../images/laptop.png") no-repeat;
+			position:absolute;
+			top:0;
+			left:0;
+			z-index:1;
+		}
+		.devices .device-ipad { 
+			display:block; 
+			width:192px; 
+			height:253px; 
+			background:url("../images/ipad.png") no-repeat;
+			position:absolute;
+			top:70px;
+			right:0;
+			z-index:2;
+		} 
+		.device-laptop-screen { 
+			display:block; 
+			width:429px; 
+			height:245px;
+			overflow:hidden;
+			position:absolute;
+			top:40px;
+			left:65px;
+			z-index:0;
+			background:url("../images/laptop-screen.jpg") no-repeat #2c3e50;
+		 }
+		
+	.contain { 
+		width:1000px; 
+		margin:0 auto; 
+	}
+	
+	#about { 
+		font-size:20px;
+		padding:70px 0 80px;
+		overflow:hidden;
+	}
+	
+	#about .contain { 
+		width:944px; 
+		margin:0 auto; 
+	}
+	
+	#about p { width:380px; text-align:left; font-size:18px; float:left; }
+	
+	#about a.contact { clear:both; float:left; }
+	
+	#about h1 { 
+		font-size:60px!important; 
+		margin:0 0 20px 0;
+		background:url("../images/intro-block.png") repeat;
+	}
+	
+	#work h1 { 
+		font-size:60px; 
+		margin:0;
+		color:#fff;
+	}
+	
+	#services h1 { 
+		font-size:60px!important; 
+		margin:0 0 40px 0;
+		color:#2c3134;
+	}
+	
+	#services .service { 
+		float:left; 
+		width:25%;
+		font-size:16px;
+		border:none;
+	}
+	
+	#services h3 {
+		font-size:20px;
+		width:80%;
+		margin:40px auto 0;
+	}
+	
+	#contact { 
+		font-size:16px;
+		padding-bottom:80px;
+	}
+	#contact h1 {
+		font-size:60px;  
+		font-weight:bold;
+		margin:0 0 20px 0;
+	}
+	
+	#contact span { width:944px; }
+	
+	#contact span a:first-of-type { margin:0 30px 10px 0; }
+	
+	#contact span a {    
+		clear:none;
+		float: left;
+		text-align:left;
+		width:140px;
+	    height:140px;
+		padding:0 0 0 0;
+		margin:0 30px 10px;
+	}
+	
+	footer {	
+		font-size:16px;
+		padding: 0;
+		color:#fff;
+	}
+	
+	footer a { color:#8b8a8a; }
+	
+		
+	.opl {
+	position:fixed;
+	top:100px;
+	left:0px;
+	z-index:99999;
+	}
+	
+	.opl a {
+	width:73px;
+	height:56px;
+	text-indent:-9999px;
+	display:block;
+	background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png') no-repeat;
+	}
+
+}
+
+/*ipad*/
+
+@media only screen 
+and (min-width : 700px) 
+and (max-width : 1100px) { 
+	section {
+		padding: 40px 0;
+	}
+	
+	header { 
+		height:74px; padding:0;
+	}
+	
+	nav { height:74px; padding:0 20px 0 0; }
+	
+	header ul { 
+		display:block;
+		clear:none;
+		float:right; 
+		list-style:none;
+		border:none;
+		width:auto;
+	}
+	
+	header li { 
+		border:none;
+		width:auto;
+		float:left;
+		margin:0 0 0 30px;
+	}
+	
+	header li a { 
+		font-size:16px;
+		font-weight:normal;
+		text-align:left;
+		line-height:62px;
+	}
+	
+	header .logo { 
+	    float:left; 
+		margin:0 0 0 0;
+		display:block; 
+		text-indent:-9999px; 
+		width:267px;
+		height:74px;
+		background:url("../images/logo.jpg") no-repeat;
+	}
+	
+	header .mobi-nav { display:none; }
+	
+	#about { 
+		background:url("../images/background.jpg") repeat fixed 50% 0;	
+		font-size:20px;
+		padding:70px 0 80px;
+	}
+	
+	#about p { 
+		width:80%;
+		margin:0 auto 10px; 
+	}
+	#about h1 { 
+		font-size:40px!important; 
+		margin:0 0 20px 0;
+	}
+
+	#work h1 { 
+		font-size:60px; 
+		margin:0;
+		color:#fff;
+	}
+
+	
+	#services h1 { 
+		font-size:60px!important; 
+		margin:0 0 40px 0;
+		color:#2c3134;
+	}
+	
+	#services .service { 
+		float:left; 
+		width:25%;
+		font-size:16px;
+		border:none;
+		padding-top:0;
+	}
+	
+	#services h3 {
+		font-size:16px;
+		width:80%;
+		margin:40px auto 0;
+	}
+	
+	#services img { width:90%; }
+	
+	#contact { 
+		font-size:20px;
+	}
+	#contact p { 
+		width:80%;
+		margin:0 auto 10px; 
+	}
+	#contact h1 {
+		font-size:60px;  
+		font-weight:bold;
+		margin:0 0 20px 0;
+	}
+	
+	#contact span { width:700px; }
+	
+	#contact span a {    
+		display: block;
+		clear:none;
+		float: left;
+		width:140px;
+		height:140px;
+		margin:0 0 0 0;
+	}
+	
+	#contact span a {    
+		font-size:17px;
+		margin:0 0 10px 0;
+	}
+
+	footer {	
+		font-size:20px;
+		padding: 20px 0;
+	}
+
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+

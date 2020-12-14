@@ -1,0 +1,24 @@
+HTTrack3.48-22+htsswf+htsjava launched on Fri, 25 Nov 2016 00:10:58 at http://demo.designing-world.com/limhost-v3/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" http://demo.designing-world.com/limhost-v3/ -O1 "C:\Meus Sites\limhostv3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:10:58	Error: 	"Internal Server Error" (500) after 2 retries at link demo.designing-world.com/robots.txt (from primary/primary)
+00:14:08	Warning: 	File not parsed, looks like binary: demo.designing-world.com/limhost-v3/fonts/montserrat-light.woff2
+00:14:08	Warning: 	Retry after error 500 (Internal Server Error) at link demo.designing-world.com/limhost-v3/shop-fullwidth.html (from demo.designing-world.com/limhost-v3/cart.html)
+00:14:08	Warning: 	Retry after error 500 (Internal Server Error) at link demo.designing-world.com/limhost-v3/login.html (from demo.designing-world.com/limhost-v3/checkout.html)
+00:14:08	Warning: 	File not parsed, looks like binary: demo.designing-world.com/limhost-v3/fonts/glyphicons-halflings-regular.woff2
+00:14:08	Warning: 	Retry after error 500 (Internal Server Error) at link demo.designing-world.com/limhost-v3/css/owl.video.play.png (from demo.designing-world.com/limhost-v3/css/owl.carousel.css)
+00:14:08	Warning: 	File not parsed, looks like binary: demo.designing-world.com/limhost-v3/fonts/fontawesome-webfont.woff2?v=4.7.0
+00:14:10	Warning: 	Retry after error 500 () at link demo.designing-world.com/limhost-v3/shop-fullwidth.html (from demo.designing-world.com/limhost-v3/cart.html)
+00:14:10	Warning: 	Retry after error 500 () at link demo.designing-world.com/limhost-v3/login.html (from demo.designing-world.com/limhost-v3/checkout.html)
+00:14:10	Warning: 	Retry after error 500 () at link demo.designing-world.com/limhost-v3/css/owl.video.play.png (from demo.designing-world.com/limhost-v3/css/owl.carousel.css)
+00:14:10	Error: 	"" (500) after 2 retries at link demo.designing-world.com/limhost-v3/shop-fullwidth.html (from demo.designing-world.com/limhost-v3/cart.html)
+00:14:10	Error: 	"" (500) after 2 retries at link demo.designing-world.com/limhost-v3/login.html (from demo.designing-world.com/limhost-v3/checkout.html)
+00:14:10	Error: 	"" (500) after 2 retries at link demo.designing-world.com/limhost-v3/css/owl.video.play.png (from demo.designing-world.com/limhost-v3/css/owl.carousel.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 3 minutes 12 seconds : 118 links scanned, 108 files written (5728324 bytes overall) [5754470 bytes received at 29971 bytes/sec]
+(4 errors, 9 warnings, 0 messages)

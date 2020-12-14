@@ -1,0 +1,1235 @@
+/*------------------------------------------------------------------
+[Colors Stylesheet]
+
+Author: AtypicalThemes
+Template: Nixo - Creative Agency OnePage.
+Version:	1.0
+Last change:	11/22/2016
+
+-------------------------------------------------------------------
+Table of contents
+
+    I.Hero Section Colors
+    II.About Section Colors
+    III.Services Section 1 Colors
+    IV.Team Section Colors
+    V.Services Section 2 Colors
+    VI.Newsletter Colors
+    VII.Portfolio Colors
+    VIII.Pricing Section Colors
+    IX.Contact Section Colors
+    X.Social Icons Colors 
+
+------------------------------------------------------------------- */
+
+/* this part won't be in the release version and is redundant */
+.switcher-wrapp {
+    position: fixed;
+    float: left;
+    top: 20%;
+    left: -150px;
+    width: 150px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    z-index: 15;
+    background: #f9f9f9;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+}
+.switcher-wrapp i {
+    display: inline-block;
+    cursor: pointer;
+}
+.switcher-wrapp a {
+    display: inline-block;
+}
+.switcher-wrapp p {
+    margin: 5px 0 0 0;
+}
+.switcher-icon {
+    position: absolute;
+    right: -31%;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; 
+    cursor: pointer;
+    color: #333;
+}
+.activated {
+    left: 0;
+}
+.switcher-wrapp ul {
+    padding-left: 30px;
+}
+.switcher-color {
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #dedede;
+    margin: 5px;  
+}
+#turquoise {
+    cursor: pointer;
+    background: #1ABC9C;
+}
+#blue {
+    cursor: pointer;
+    background: #3498DB;
+}
+#red {
+    cursor: pointer;
+    background: #E74C3C;
+}
+#green {
+    cursor: pointer;
+    background: #27AE60;
+}
+#gold {
+    cursor: pointer;
+    background: #F39C12;
+}
+#purple {
+    cursor: pointer;
+    background: #8E44AD;
+}
+#indigo {
+    cursor: pointer;
+    background: #34495E;
+}
+#default {
+    cursor: pointer;
+    background: #333;
+}
+
+/* ///// I. HERO SECTION COLORS ///// */
+/* -Default Black- */
+#hero-section.default .colored {
+    color: #FFF;
+}
+#hero-section.default #progress-bar {
+    background: #333;
+}
+/* -Turquoise- */
+#hero-section.turquoise .colored {
+    color: #1ABC9C;
+}
+#hero-section.turquoise #progress-bar {
+    background: #1ABC9C;
+}
+/* -Blue- */
+#hero-section.blue .colored {
+    color: #3498DB;
+}
+#hero-section.blue #progress-bar {
+    background: #3498DB;
+}
+/* -Red- */
+#hero-section.red .colored {
+    color: #E74C3C;
+}
+#hero-section.red #progress-bar {
+    background: #E74C3C;
+}
+/* -Green- */
+#hero-section.green .colored {
+    color: #27AE60;
+}
+#hero-section.green #progress-bar {
+    background: #27AE60;
+}
+/* -Gold- */
+#hero-section.gold .colored {
+    color: #F39C12;
+}
+#hero-section.gold #progress-bar {
+    background: #F39C12;
+}
+/* -Purple- */
+#hero-section.purple .colored {
+    color: #8E44AD;
+}
+#hero-section.purple #progress-bar {
+    background: #8E44AD;
+}
+/* -Indigo- */
+#hero-section.indigo .colored {
+    color: #34495E;
+}
+#hero-section.indigo #progress-bar {
+    background: #34495E;
+}
+
+/* ///// II. ABOUT SECTION COLORS ///// *
+/* -Default Black- */
+#about-section.default .colored {
+    color: #333;
+}
+#about-section.default .short-hr-center::after {
+    border-color: #333;
+}
+#about-section.default .short-hr-left::after {
+    border-color: #333;
+}
+#about-section.default .short-hr-right::after {
+    border-color: #333;
+}
+/* -Turquoise- */
+#about-section.turquoise .colored{
+    color: #1ABC9C;
+}
+#about-section.turquoise .short-hr-center::after {
+     border-color: #1ABC9C;
+}
+#about-section.turquoise .short-hr-left::after {
+     border-color: #1ABC9C;
+}
+#about-section.turquoise .short-hr-right::after {
+     border-color: #1ABC9C;
+}
+/* -Blue- */
+#about-section.blue .colored{
+    color: #3498DB;
+}
+#about-section.blue .short-hr-center::after {
+     border-color: #3498DB;
+}
+#about-section.blue .short-hr-left::after {
+     border-color: #3498DB;
+}
+#about-section.blue .short-hr-right::after {
+     border-color: #3498DB;
+}
+/* -Red- */
+#about-section.red .colored{
+    color: #E74C3C;
+}
+#about-section.red .short-hr-center::after {
+     border-color: #E74C3C;
+}
+#about-section.red .short-hr-left::after {
+     border-color: #E74C3C;
+}
+#about-section.red .short-hr-right::after {
+     border-color: #E74C3C;
+}
+/* -Green- */
+#about-section.green .colored{
+    color: #27AE60;
+}
+#about-section.green .short-hr-center::after {
+     border-color: #27AE60;
+}
+#about-section.green .short-hr-left::after {
+     border-color: #27AE60;
+}
+#about-section.green .short-hr-right::after {
+     border-color: #27AE60;
+}
+/* -Gold- */
+#about-section.gold .colored{
+    color: #F39C12;
+}
+#about-section.gold .short-hr-center::after {
+     border-color: #F39C12;
+}
+#about-section.gold .short-hr-left::after {
+     border-color: #F39C12;
+}
+#about-section.gold .short-hr-right::after {
+     border-color: #F39C12;
+}
+/* -Purple- */
+#about-section.purple .colored{
+    color: #8E44AD;
+}
+#about-section.purple .short-hr-center::after {
+     border-color: #8E44AD;
+}
+#about-section.purple .short-hr-left::after {
+     border-color: #8E44AD;
+}
+#about-section.purple .short-hr-right::after {
+     border-color: #8E44AD;
+}
+/* -Indigo- */
+#about-section.indigo .colored{
+    color: #34495E;
+}
+#about-section.indigo .short-hr-center::after {
+     border-color: #34495E;
+}
+#about-section.indigo .short-hr-left::after {
+     border-color: #34495E;
+}
+#about-section.indigo .short-hr-right::after {
+     border-color: #34495E;
+}
+
+/* ///// III. SERVICES SECTION 1 COLORS ///// */
+/* -Default Black- */
+#services-section-1.default .colored {
+    color: #333;
+}
+#services-section-1.default .short-hr-center::after {
+    border-color: #333;
+}
+#services-section-1.default .short-hr-bottom::after {
+    border-color: #333;
+}
+/* -Turquoise- */
+#services-section-1.turquoise .colored {
+    color: #1ABC9C;
+}
+#services-section-1.turquoise .short-hr-center::after {
+    border-color: #1ABC9C;
+}
+#services-section-1.turquoise .short-hr-bottom::after {
+    border-color: #1ABC9C;
+}
+/* -Blue- */
+#services-section-1.blue .colored {
+    color: #3498DB;
+}
+#services-section-1.blue .short-hr-center::after {
+    border-color: #3498DB;
+}
+#services-section-1.blue .short-hr-bottom::after {
+    border-color: #3498DB;
+}
+/* -Red- */
+#services-section-1.red .colored {
+    color: #E74C3C;
+}
+#services-section-1.red .short-hr-center::after {
+    border-color: #E74C3C;
+}
+#services-section-1.red .short-hr-bottom::after {
+    border-color: #E74C3C;
+}
+/* -Green- */
+#services-section-1.green .colored {
+    color: #27AE60;
+}
+#services-section-1.green .short-hr-center::after {
+    border-color: #27AE60; 
+}
+#services-section-1.green .short-hr-bottom::after {
+    border-color: #27AE60;
+}
+/* -Gold- */
+#services-section-1.gold .colored {
+    color: #F39C12;
+}
+#services-section-1.gold .short-hr-center::after {
+    border-color: #F39C12;
+}
+#services-section-1.gold .short-hr-bottom::after {
+    border-color: #F39C12;
+}
+/* -Purple- */
+#services-section-1.purple .colored {
+    color: #8E44AD;
+}
+#services-section-1.purple .short-hr-center:after {
+    border-color: #8E44AD;
+}
+#services-section-1.purple .short-hr-bottom:after  {
+    border-color: #8E44AD;
+}
+/* -Indigo- */
+#services-section-1.indigo .colored {
+    color: #34495E;
+}
+#services-section-1.indigo .short-hr-center::after {
+    border-color: #34495E;
+}
+#services-section-1.indigo .short-hr-bottom::after {
+    border-color: #34495E;
+}
+
+/* ///// IV. TEAM SECTION COLORS ///// */
+/* -Default Black- */
+#team-section.default .colored {
+    color: #333;
+}
+#team-section.default .short-hr-left::after {
+    border-color: #333;
+}
+#team-section.default .short-hr-right::after {
+    border-color: #333;
+}
+#team-section.default .short-hr-center::after {
+    border-color: #333;
+}
+#team-section.default .count-bar {
+    background: #333;
+}
+/* -Turquoise- */
+#team-section.turquoise .colored {
+    color: #1ABC9C;
+}
+#team-section.turquoise .short-hr-left::after {
+    border-color: #1ABC9C;
+}
+#team-section.turquoise .short-hr-right::after {
+    border-color: #1ABC9C;
+}
+#team-section.turquoise .short-hr-center::after {
+    border-color: #1ABC9C;
+}
+#team-section.turquoise .count-bar {
+    background: #1ABC9C;
+}
+/* -Blue- */
+#team-section.blue .colored {
+    color: #3498DB;
+}
+#team-section.blue .short-hr-left::after {
+    border-color: #3498DB;
+}
+#team-section.blue .short-hr-right::after {
+    border-color: #3498DB;
+}
+#team-section.blue .short-hr-center::after {
+    border-color: #3498DB;
+}
+#team-section.blue .count-bar {
+    background: #3498DB;
+}
+/* -Red- */
+#team-section.red .colored {
+    color: #E74C3C;
+}
+#team-section.red .short-hr-left::after {
+    border-color: #E74C3C;
+}
+#team-section.red .short-hr-right::after {
+    border-color: #E74C3C;
+}
+#team-section.red .short-hr-center::after {
+    border-color: #E74C3C;
+}
+#team-section.red .count-bar {
+    background: #E74C3C;
+}
+/* -Green- */
+#team-section.green .colored {
+    color: #27AE60;
+}
+#team-section.green .short-hr-left::after {
+    border-color: #27AE60;
+}
+#team-section.green .short-hr-right::after {
+    border-color: #27AE60;
+}
+#team-section.green .short-hr-center::after {
+    border-color: #27AE60;
+}
+#team-section.green .count-bar {
+    background: #27AE60;
+}
+/* -Gold- */
+#team-section.gold .colored {
+    color: #F39C12;
+}
+#team-section.gold .short-hr-left::after {
+    border-color: #F39C12;
+}
+#team-section.gold .short-hr-right::after {
+    border-color: #F39C12;
+}
+#team-section.gold .short-hr-center::after {
+    border-color: #F39C12;
+}
+#team-section.gold .count-bar {
+    background: #F39C12;
+}
+/* -Purple- */
+#team-section.purple .colored {
+    color: #8E44AD;
+}
+#team-section.purple .short-hr-left::after {
+    border-color: #8E44AD;
+}
+#team-section.purple .short-hr-right::after {
+    border-color: #8E44AD;
+}
+#team-section.purple .short-hr-center::after {
+    border-color: #8E44AD;
+}
+#team-section.purple .count-bar {
+    background: #8E44AD;
+}
+/* -Indigo- */
+#team-section.indigo .colored {
+    color: #34495E;
+}
+#team-section.indigo .short-hr-left::after {
+    border-color: #34495E;
+}
+#team-section.indigo .short-hr-right::after {
+    border-color: #34495E
+}
+#team-section.indigo .short-hr-center::after {
+    border-color: #34495E;
+}
+#team-section.indigo .count-bar {
+    background: #34495E;
+}
+
+/* ///// VI. SERVICES SECTION 2 COLORS ///// */
+/* -Default Black- */
+#services-section-2.default .colored {
+    color: #333;
+}
+#services-section-2.default .service-item:hover .icon-animated {
+    color: #333;
+}
+#services-section-2.default .service-item:hover .icon-animated:before {
+    background-color: #333;
+}
+#services-section-2.default .service-item:hover .icon-animated:after {
+    background-color: #333;
+}
+#services-section-2.default .service-item:hover .icon-animated p:before{
+    background-color: #333;
+}
+#services-section-2.default .service-item:hover .icon-animated p:after {
+    background-color: #333;
+}
+#services-section-2.default .short-hr-center::after {
+    border-color:  #333;
+}
+/* -Turquoise- */
+#services-section-2.turquoise .colored {
+    color: #1ABC9C;
+}
+#services-section-2.turquoise .service-item:hover .icon-animated {
+    color: #1ABC9C;
+}
+#services-section-2.turquoise .service-item:hover .icon-animated:before {
+    background-color: #21D8B4;
+}
+#services-section-2.turquoise .service-item:hover .icon-animated:after {
+    background-color: #21D8B4;
+}
+#services-section-2.turquoise .service-item:hover .icon-animated p:before{
+    background-color: #21D8B4;
+}
+#services-section-2.turquoise .service-item:hover .icon-animated p:after {
+    background-color: #21D8B4;
+}
+#services-section-2.turquoise .short-hr-center::after {
+    border-color:  #1ABC9C;
+}
+/* -Blue- */
+#services-section-2.blue .colored {
+    color: #3498DB;
+}
+#services-section-2.blue .service-item:hover .icon-animated {
+    color: #3498DB;
+}
+#services-section-2.blue .service-item:hover .icon-animated:before {
+    background-color: #3498DB;
+}
+#services-section-2.blue .service-item:hover .icon-animated:after {
+    background-color: #3498DB;
+}
+#services-section-2.blue .service-item:hover .icon-animated p:before{
+    background-color: #3498DB;
+}
+#services-section-2.blue .service-item:hover .icon-animated p:after {
+    background-color: #3498DB;
+}
+#services-section-2.blue .short-hr-center::after {
+    border-color:  #3498DB;
+}
+/* -Red- */
+#services-section-2.red .colored {
+    color: #E74C3C;
+}
+#services-section-2.red .service-item:hover .icon-animated {
+    color: #E74C3C;
+}
+#services-section-2.red .service-item:hover .icon-animated:before {
+    background-color: #E74C3C;
+}
+#services-section-2.red .service-item:hover .icon-animated:after {
+    background-color: #E74C3C;
+}
+#services-section-2.red .service-item:hover .icon-animated p:before{
+    background-color: #E74C3C;
+}
+#services-section-2.red .service-item:hover .icon-animated p:after {
+    background-color: #E74C3C;
+}
+#services-section-2.red .short-hr-center::after {
+    border-color:  #E74C3C;
+}
+/* -Green- */
+#services-section-2.green .colored {
+    color: #27AE60;
+}
+#services-section-2.green .service-item:hover .icon-animated {
+    color: #27AE60;
+}
+#services-section-2.green .service-item:hover .icon-animated:before {
+    background-color: #27AE60;
+}
+#services-section-2.green .service-item:hover .icon-animated:after {
+    background-color: #27AE60;
+}
+#services-section-2.green .service-item:hover .icon-animated p:before{
+    background-color: #27AE60;
+}
+#services-section-2.green .service-item:hover .icon-animated p:after {
+    background-color: #27AE60;
+}
+#services-section-2.green .short-hr-center::after {
+    border-color:  #27AE60;
+}
+/* -Gold- */
+#services-section-2.gold .colored {
+    color: #F39C12;
+}
+#services-section-2.gold .service-item:hover .icon-animated {
+    color: #F39C12;
+}
+#services-section-2.gold .service-item:hover .icon-animated:before {
+    background-color: #F39C12;
+}
+#services-section-2.gold .service-item:hover .icon-animated:after {
+    background-color: #F39C12;
+}
+#services-section-2.gold .service-item:hover .icon-animated p:before{
+    background-color: #F39C12;
+}
+#services-section-2.gold .service-item:hover .icon-animated p:after {
+    background-color: #F39C12;
+}
+#services-section-2.gold .short-hr-center::after {
+    border-color:  #F39C12;
+}
+/* -Purple- */
+#services-section-2.purple .colored {
+    color: #8E44AD;
+}
+#services-section-2.purple .service-item:hover .icon-animated {
+    color: #8E44AD;
+}
+#services-section-2.purple .service-item:hover .icon-animated:before {
+    background-color: #8E44AD;
+}
+#services-section-2.purple .service-item:hover .icon-animated:after {
+    background-color: #8E44AD;
+}
+#services-section-2.purple .service-item:hover .icon-animated p:before{
+    background-color: #8E44AD;
+}
+#services-section-2.purple .service-item:hover .icon-animated p:after {
+    background-color: #8E44AD;
+}
+#services-section-2.purple .short-hr-center::after {
+    border-color:  #8E44AD;
+}
+/* -Indigo- */
+#services-section-2.indigo .colored {
+    color: #34495E;
+}
+#services-section-2.indigo .service-item:hover .icon-animated {
+    color: #34495E;
+}
+#services-section-2.indigo .service-item:hover .icon-animated:before {
+    background-color: #34495E;
+}
+#services-section-2.indigo .service-item:hover .icon-animated:after {
+    background-color: #34495E;
+}
+#services-section-2.indigo .service-item:hover .icon-animated p:before{
+    background-color: #34495E;
+}
+#services-section-2.indigo .service-item:hover .icon-animated p:after {
+    background-color: #34495E;
+}
+#services-section-2.indigo .short-hr-center::after {
+    border-color:  #34495E;
+}
+
+/* ///// VII. NEWSLETTER COLORS ///// */
+/* -Default Black- */
+#newsletter.default .colored {
+    color: #333;
+}
+#newsletter.default .button {
+    border: 1px solid #333;
+}
+#newsletter.default .button:hover {
+    background: #333;
+    color: #FFF
+}
+#newsletter.default input:focus {
+    border: 1px solid #333;
+}
+/* -Turquoise- */
+#newsletter.turquoise .colored {
+    color: #1ABC9C;
+}
+#newsletter.turquoise .button {
+    border: 1px solid #1ABC9C;
+}
+#newsletter.turquoise .button:hover {
+    background: #1ABC9C;
+    color: #FFF
+}
+#newsletter.turquoise input:focus {
+    border: 1px solid #1ABC9C;
+}
+/* -Blue- */
+#newsletter.blue .colored {
+    color: #3498DB;
+}
+#newsletter.blue .button {
+    border: 1px solid #3498DB;
+}
+#newsletter.blue .button:hover {
+    background: #3498DB;
+    color: #FFF
+}
+#newsletter.blue input:focus {
+    border: 1px solid #3498DB;
+}
+/* -Red- */
+#newsletter.red .colored {
+    color: #E74C3C;
+}
+#newsletter.red .button {
+    border: 1px solid #E74C3C;
+}
+#newsletter.red .button:hover {
+    background: #E74C3C;
+    color: #FFF
+}
+#newsletter.red input:focus {
+    border: 1px solid #E74C3C;
+}
+/* -Green- */
+#newsletter.green .colored {
+    color: #27AE60;
+}
+#newsletter.green .button {
+    border: 1px solid #27AE60;
+}
+#newsletter.green .button:hover {
+    background: #27AE60;
+    color: #FFF
+}
+#newsletter.green input:focus {
+    border: 1px solid #27AE60;
+}
+/* -Gold- */
+#newsletter.gold .colored {
+    color: #F39C12;
+}
+#newsletter.gold .button {
+    border: 1px solid #F39C12;
+}
+#newsletter.gold .button:hover {
+    background: #F39C12;
+    color: #FFF
+}
+#newsletter.gold input:focus {
+    border: 1px solid #F39C12;
+}
+/* -Purple- */
+#newsletter.purple .colored {
+    color: #8E44AD;
+}
+#newsletter.purple .button {
+    border: 1px solid #8E44AD;
+}
+#newsletter.purple .button:hover {
+    background: #8E44AD;
+    color: #FFF
+}
+#newsletter.purple input:focus {
+    border: 1px solid #8E44AD;
+}
+/* -Indigo- */
+#newsletter.indigo .colored {
+    color: #34495E;
+}
+#newsletter.indigo .button {
+    border: 1px solid #34495E;
+}
+#newsletter.indigo .button:hover {
+    background: #34495E;
+    color: #FFF
+}
+#newsletter.indigo input:focus {
+    border: 1px solid #34495E;
+}
+
+/* ///// VIII. PORTFOLIO SECTION COLORS ///// */
+/* -Default Black- */
+#portfolio-section.default .colored {
+    color: #333;
+}
+#portfolio-section.default .tag {
+    background: #FFF;
+    color: #333;
+}
+/* -Turquoise- */
+#portfolio-section.turquoise .colored {
+    color: #1ABC9C;
+}
+#portfolio-section.turquoise .tag {
+    background: #1ABC9C;
+    color: #FFF;
+}
+/* -Blue- */
+#portfolio-section.blue .colored {
+    color: #3498DB;
+}
+#portfolio-section.blue .tag {
+    background: #3498DB;
+    color: #FFF;
+}
+/* -Red- */
+#portfolio-section.red .colored {
+    color: #E74C3C;
+}
+#portfolio-section.red .tag {
+    background: #E74C3C;
+    color: #FFF;
+}
+/* -Green- */
+#portfolio-section.green .colored {
+    color: #27AE60;
+}
+#portfolio-section.green .tag {
+    background: #27AE60;
+    color: #FFF;
+}
+/* -Gold- */
+#portfolio-section.gold .colored {
+    color: #F39C12;
+}
+#portfolio-section.gold .tag {
+    background: #F39C12;
+    color: #FFF;
+}
+/* -Purple- */
+#portfolio-section.purple .colored {
+    color: #8E44AD;
+}
+#portfolio-section.purple .tag {
+    background: #8E44AD;
+    color: #FFF;
+}
+/* -Indigo- */
+#portfolio-section.indigo .colored {
+    color: #34495E;
+}
+#portfolio-section.indigo .tag {
+    background: #34495E;
+    color: #FFF;
+}
+
+/* ///// IX. PRICING SECTION COLORS ///// */
+/* -Default Black- */
+#pricing-section.default .colored {
+    color: #333;
+}
+#pricing-section.default .button {
+    background: #444;
+    color: #FFF;
+}
+#pricing-section.default .button:hover {
+    background: #2b2b2b;
+}
+#pricing-section.default .panel.special-offer {
+    border: 1px solid #333;
+}
+#pricing-section.default .panel-heading.special-offer {
+    background: #333;
+}
+#pricing-section.default .short-hr-center::after {
+    border-color: #333;
+}
+/* -Turquoise- */
+#pricing-section.turquoise .colored {
+    color: #1ABC9C;
+}
+#pricing-section.turquoise .button {
+    background: #1ABC9C;
+    color: #FFF;
+}
+#pricing-section.turquoise .button:hover {
+    background: #149C81;
+    
+}
+#pricing-section.turquoise .panel.special-offer {
+    border: 1px solid #1ABC9C;
+}
+#pricing-section.turquoise .panel-heading.special-offer {
+    background: #1ABC9C;
+}
+#pricing-section.turquoise .short-hr-center::after {
+    border-color: #1ABC9C;
+}
+/* -Blue- */
+#pricing-section.blue .colored {
+    color: #3498DB;
+}
+#pricing-section.blue .button {
+    background: #3498DB;
+    color: #FFF;
+}
+#pricing-section.blue .button:hover {
+    background: #2C82BC;
+    
+}
+#pricing-section.blue .panel.special-offer {
+    border: 1px solid #3498DB;
+}
+#pricing-section.blue .panel-heading.special-offer {
+    background: #3498DB;
+}
+#pricing-section.blue .short-hr-center::after {
+    border-color: #3498DB;
+}
+/* -Red- */
+#pricing-section.red .colored {
+    color: #E74C3C;
+}
+#pricing-section.red .button {
+    background: #E74C3C;
+    color: #FFF;
+}
+#pricing-section.red .button:hover {
+    background: #BC3C2E;  
+}
+#pricing-section.red .panel.special-offer {
+    border: 1px solid #E74C3C;
+}
+#pricing-section.red .panel-heading.special-offer {
+    background: #E74C3C;
+}
+#pricing-section.red .short-hr-center::after {
+    border-color: #E74C3C;
+}
+/* -Green- */
+#pricing-section.green .colored {
+    color: #27AE60;
+}
+#pricing-section.green .button {
+    background: #27AE60;
+    color: #FFF;
+}
+#pricing-section.green .button:hover {
+    background: #208F4F;
+}
+#pricing-section.green .panel.special-offer {
+    border: 1px solid #27AE60;
+}
+#pricing-section.green .panel-heading.special-offer {
+    background: #27AE60;
+}
+#pricing-section.green .short-hr-center::after {
+    border-color: #27AE60;
+}
+/* -Gold- */
+#pricing-section.gold .colored {
+    color: #F39C12;
+}
+#pricing-section.gold .button {
+    background: #F39C12;
+    color: #FFF;
+}
+#pricing-section.gold .button:hover {
+    background: #D0840B;
+}
+#pricing-section.gold .panel.special-offer {
+    border: 1px solid #F39C12;
+}
+#pricing-section.gold .panel-heading.special-offer {
+    background: #F39C12;
+}
+#pricing-section.gold .short-hr-center::after {
+    border-color: #F39C12;
+}
+/* -Purple- */
+#pricing-section.purple .colored {
+    color: #8E44AD;
+}
+#pricing-section.purple .button {
+    background: #8E44AD;
+    color: #FFF;
+}
+#pricing-section.purple .button:hover {
+    background: #74378D;
+}
+#pricing-section.purple .panel.special-offer {
+    border: 1px solid #8E44AD;
+}
+#pricing-section.purple .panel-heading.special-offer {
+    background: #8E44AD;
+}
+#pricing-section.purple .short-hr-center::after {
+    border-color: #8E44AD;
+}
+/* -Indigo- */
+#pricing-section.indigo .colored {
+    color: #34495E;
+}
+#pricing-section.indigo .button {
+    background: #34495E;
+    color: #FFF;
+}
+#pricing-section.indigo .button:hover {
+    background: #253443;
+}
+#pricing-section.indigo .panel.special-offer {
+    border: 1px solid #34495E;
+}
+#pricing-section.indigo .panel-heading.special-offer {
+    background: #34495E;
+}
+#pricing-section.indigo .short-hr-center::after {
+    border-color: #34495E;
+}
+
+/* ///// XII. CONTACT SECTION COLORS ///// */
+/* -Default Black- */
+#contact-section.default .colored {
+    color: #333;
+}
+#contact-section.default textarea:focus {
+    border: 1px solid #333;
+}
+#contact-section.default input:focus {
+    border: 1px solid #333;
+}
+#contact-section.default .button {
+    border: 1px solid #333;
+}
+#contact-section.default .button:hover {
+    background: #333;
+    color: #FFF;
+}
+#contact-section.default .icon-contact {
+    background: #777;
+}
+/* -Turquoise- */
+#contact-section.turquoise .colored {
+    color: #1ABC9C;
+}
+#contact-section.turquoise textarea:focus {
+    border: 1px solid #1ABC9C;
+}
+#contact-section.turquoise input:focus {
+    border: 1px solid #1ABC9C;
+}
+#contact-section.turquoise .button {
+    border: 1px solid #1ABC9C;
+}
+#contact-section.turquoise .button:hover {
+    background: #1ABC9C;
+    color: #FFF;
+}
+#contact-section.turquoise .icon-contact {
+    background: #1ABC9C;
+}
+/* -Blue- */
+#contact-section.blue .colored {
+    color: #3498DB;
+}
+#contact-section.blue textarea:focus {
+    border: 1px solid #3498DB;
+}
+#contact-section.blue input:focus {
+    border: 1px solid #3498DB;
+}
+#contact-section.blue .button {
+    border: 1px solid #3498DB;
+}
+#contact-section.blue .button:hover {
+    background: #3498DB;
+    color: #FFF;
+}
+#contact-section.blue .icon-contact {
+    background: #3498DB;
+}
+/* -Red- */
+#contact-section.red .colored {
+    color: #E74C3C;
+}
+#contact-section.red textarea:focus {
+    border: 1px solid #E74C3C;
+}
+#contact-section.red input:focus {
+    border: 1px solid #E74C3C;
+}
+#contact-section.red .button {
+    border: 1px solid #E74C3C;
+}
+#contact-section.red .button:hover {
+    background: #E74C3C;
+    color: #FFF;
+}
+#contact-section.red .icon-contact {
+    background: #E74C3C;
+}
+/* -Green- */
+#contact-section.green .colored {
+    color: #27AE60;
+}
+#contact-section.green textarea:focus {
+    border: 1px solid #27AE60;
+}
+#contact-section.green input:focus {
+    border: 1px solid #27AE60;
+}
+#contact-section.green .button {
+    border: 1px solid #27AE60;
+}
+#contact-section.green .button:hover {
+    background: #27AE60;
+    color: #FFF;
+}
+#contact-section.green .icon-contact {
+    background: #27AE60;
+}
+/* -Gold- */
+#contact-section.gold .colored {
+    color: #F39C12;
+}
+#contact-section.gold textarea:focus {
+    border: 1px solid #F39C12;
+}
+#contact-section.gold input:focus {
+    border: 1px solid #F39C12;
+}
+#contact-section.gold .button {
+    border: 1px solid #F39C12;
+}
+#contact-section.gold .button:hover {
+    background: #F39C12;
+    color: #FFF;
+}
+#contact-section.gold .icon-contact {
+    background: #F39C12;
+}
+/* -Purple- */
+#contact-section.purple .colored {
+    color: #8E44AD;
+}
+#contact-section.purple textarea:focus {
+    border: 1px solid #8E44AD;
+}
+#contact-section.purple input:focus {
+    border: 1px solid #8E44AD;
+}
+#contact-section.purple .button {
+    border: 1px solid #8E44AD;
+}
+#contact-section.purple .button:hover {
+    background: #8E44AD;
+    color: #FFF;
+}
+#contact-section.purple .icon-contact {
+    background: #8E44AD;
+}
+/* -Indigo- */
+#contact-section.indigo .colored {
+    color: #34495E;
+}
+#contact-section.indigo textarea:focus {
+    border: 1px solid #34495E;
+}
+#contact-section.indigo input:focus {
+    border: 1px solid #34495E;
+}
+#contact-section.indigo .button {
+    border: 1px solid #34495E;
+}
+#contact-section.indigo .button:hover {
+    background: #34495E;
+    color: #FFF;
+}
+#contact-section.indigo .icon-contact {
+    background: #34495E;
+}
+
+/* ///// XI. SOCIAL LINKS COLORS ///// */
+/* -Default Black- */
+#main-footer.default .social-links li > a > i {
+    color: #333;
+}
+#main-footer.default .social-links li > a > i:hover {
+    background: #333;
+    color: #FFF;
+}
+/* -Turquoise- */
+#main-footer.turquoise .social-links li > a > i {
+    color: #1ABC9C;
+}
+#main-footer.turquoise .social-links li > a > i:hover {
+    background: #1ABC9C;
+    color: #FFF;
+}
+/* -Blue- */
+#main-footer.blue .social-links li > a > i {
+    color: #3498DB;
+}
+#main-footer.blue .social-links li > a > i:hover {
+    background: #3498DB;
+    color: #FFF;
+}
+/* -Red- */
+#main-footer.red .social-links li > a > i {
+    color: #E74C3C;
+}
+#main-footer.red .social-links li > a > i:hover {
+    background: #E74C3C;
+    color: #FFF;
+}
+/* -Green- */
+#main-footer.green .social-links li > a > i {
+    color: #27AE60;
+}
+#main-footer.green .social-links li > a > i:hover {
+    background: #27AE60;
+    color: #FFF;
+}
+/* -Gold- */
+#main-footer.gold .social-links li > a > i {
+    color: #F39C12;
+}
+#main-footer.gold .social-links li > a > i:hover {
+    background: #F39C12;
+    color: #FFF;
+}
+/* -Purple- */
+#main-footer.purple .social-links li > a > i {
+    color: #8E44AD;
+}
+#main-footer.purple .social-links li > a > i:hover {
+    background: #8E44AD;
+    color: #FFF;
+}
+/* -Indigo- */
+#main-footer.indigo .social-links li > a > i {
+    color: #34495E;
+}
+#main-footer.indigo .social-links li > a > i:hover {
+    background: #34495E;
+    color: #FFF;
+}

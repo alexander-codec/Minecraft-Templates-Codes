@@ -1,0 +1,22 @@
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 07 Feb 2017 22:46:19 at http://xioyuna.com/nella/template/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" http://xioyuna.com/nella/template/index.html -O1 "C:\Meus Sites\younext app" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-f7-ios.png (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-name-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-password-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-email-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-calendar-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-tel-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-gender-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-toggle-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-comment-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-settings-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+22:48:23	Error: 	"Not Found" (404) at link xioyuna.com/nella/template/img/i-form-url-ios.svg (from xioyuna.com/nella/template/css/framework7.ios.min.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 minutes 5 seconds : 49 links scanned, 37 files written (3727758 bytes overall) [3259138 bytes received at 26073 bytes/sec], 604837 bytes transferred using HTTP compression in 21 files, ratio 19%
+(11 errors, 0 warnings, 0 messages)

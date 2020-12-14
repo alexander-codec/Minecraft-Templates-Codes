@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0021)http://www.byjeff.nl/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Jeffrey van der Loop - Design &amp; Development</title>
+<meta name="description" content="Hallo, ik ben Jeffrey van der Loop. Een 24 jarige grafisch ontwerper en web developer uit &#39;s-Hertogenbosch. Mijn focus ligt op het creëren van functionele ontwerpen met oog voor detail.">
+<meta name="keywords" content="grafisch, ontwerp, ontwerper, web, design, development, branding, print, interactief, reclame, reclamebureau, den bosch, hertogenbosch, brabant">
+<meta name="author" content="Jeffrey van der Loop">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="3 month">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+<script async="" src="./Jeffrey van der Loop - Design & Development_files/analytics.js"></script><script type="text/javascript" src="./Jeffrey van der Loop - Design & Development_files/jquery.js"></script>
+<script type="text/javascript" src="./Jeffrey van der Loop - Design & Development_files/jquery.pageslide.min.js"></script>
+
+<link href="./Jeffrey van der Loop - Design & Development_files/style.css" rel="stylesheet" type="text/css">
+<link href="./Jeffrey van der Loop - Design & Development_files/css" rel="stylesheet" type="text/css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48961292-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body style="margin-left: -375px;">
+
+<script type="text/javascript">
+
+// top-button weergeven on scroll
+
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 1) {
+        $('#topbutton').fadeIn();
+    } else {
+        $('#topbutton').fadeOut();
+    }
+});
+
+// fix menu weergeven on scroll on scroll
+
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 600) {
+        $('#menu_wrap_fix').fadeIn();
+    } else {
+        $('#menu_wrap_fix').fadeOut();
+    }
+});
+
+
+// slow-scrolling-effect
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+
+// vliegtuig scroll
+
+$(function(){
+$(function(){
+    var lastScrollYPos = 0;
+    $(window).on('scroll', function(){
+        var $this = $(this),
+            $block = $('#horizontal'),
+            // retrieves the top and left coordinates
+            position = $block.offset(),
+            // X and Y factors allows to change the diagonal movement direction and
+            // degree. Negative values inverts the direction.
+            factorX = 1,
+            factorY = 1,
+            // retrieves current vertical scrolling position and calculate the
+            // relative offset
+            scrollYPos = $this.scrollTop(),
+            offset = Math.abs(scrollYPos - lastScrollYPos),
+            // mouse wheel delta is inverted respect to the direction, so we need to
+            // normalize it against the direction
+            direction = scrollYPos > lastScrollYPos ? -1 : 1,
+            // calculates the new position. NOTE: if integers only are used for factors,
+            // then `Math.floor()` isn't required.
+            newTop = position.top + Math.floor(direction * offset * factorY),
+            newLeft = position.left - Math.floor(direction * offset * factorX);
+
+        // moves the block
+        $block.offset({ top: newTop, left: newLeft });
+        lastScrollYPos = scrollYPos;
+    });
+});
+});//]]>  
+
+
+// Show/hide werk divs on click
+
+$(window).load(function(){
+$("#case1").on('click', function() {
+   $("#case_1").toggle();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_98").hide();
+});
+
+$("#case2").on('click', function() {
+   $("#case_2").toggle();
+   $("#case_1").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case3").on('click', function() {
+   $("#case_3").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case4").on('click', function() {
+   $("#case_4").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case5").on('click', function() {
+   $("#case_5").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case6").on('click', function() {
+   $("#case_6").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case7").on('click', function() {
+   $("#case_7").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_8").hide();
+   $("#case_9").hide();
+});
+
+$("#case8").on('click', function() {
+   $("#case_8").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_9").hide();
+});
+
+$("#case9").on('click', function() {
+   $("#case_9").toggle();
+   $("#case_1").hide();
+   $("#case_2").hide();
+   $("#case_3").hide();
+   $("#case_4").hide();
+   $("#case_5").hide();
+   $("#case_6").hide();
+   $("#case_7").hide();
+   $("#case_8").hide();
+});
+
+$("#closebutton").on('click', function() {
+   $("#case_1").fadeOut();
+});
+
+$("#closebutton2").on('click', function() {
+   $("#case_2").fadeOut();
+});
+
+$("#closebutton3").on('click', function() {
+   $("#case_3").fadeOut();
+});
+
+$("#closebutton4").on('click', function() {
+   $("#case_4").fadeOut();
+});
+
+$("#closebutton5").on('click', function() {
+   $("#case_5").fadeOut();
+});
+
+$("#closebutton6").on('click', function() {
+   $("#case_6").fadeOut();
+});
+
+$("#closebutton7").on('click', function() {
+   $("#case_7").fadeOut();
+});
+
+$("#closebutton8").on('click', function() {
+   $("#case_8").fadeOut();
+});
+
+$("#closebutton9").on('click', function() {
+   $("#case_9").fadeOut();
+});
+});
+
+
+</script>
+
+<div id="wrapper">
+
+	<div class="opm-ribbon">
+		<a target="_blank" href="http://onepagemania.com/jeffrey-van-der-loop/">ByJeff</a>
+	</div>
+    
+    	<div class="cssr-ribbon">
+		<a target="_blank" href="http://cssreel.com/Website/jeffrey-van-der-loop">ByJeff</a>
+	</div>
+    
+    <div class="opl">
+    	<a target="_blank" href="http://onepagelove.com/jeffrey-van-der-loop">ByJeff</a>
+    </div>
+    
+    <div id="menu_wrap_fix" style="display: block;">
+    	<div id="menu_fix">	
+        	<div id="logo_fix"><a href="http://www.byjeff.nl/#wrapper"><img src="./Jeffrey van der Loop - Design & Development_files/byjeff_logo.png" alt="ByJeff"></a></div>
+            <div id="menuitems_fix">
+            <ul>
+            	<li>
+                <a href="http://www.byjeff.nl/#modal" class="second"><img src="./Jeffrey van der Loop - Design & Development_files/menu_dark.png" alt="menu"></a>
+            	</li>
+        	</ul>
+            </div>
+        </div>
+    </div>
+
+    
+	<div id="menu_wrap">
+    	<div id="menu">	
+        	<div id="logo"><a href="http://www.byjeff.nl/#wrapper"><img src="./Jeffrey van der Loop - Design & Development_files/byjeff_logo.png" alt="ByJeff"></a></div>
+            <div id="menuitems">
+            <ul>
+            	<li>
+                <a href="http://www.byjeff.nl/#modal" class="second"><img src="./Jeffrey van der Loop - Design & Development_files/menu.png" alt="menu"></a>
+            	</li>
+        	</ul>
+        	<div id="modal">
+            	<p><a href="javascript:$.pageslide.close()"><img class="closemenu" alt="close" src="./Jeffrey van der Loop - Design & Development_files/sluit.png" style="float: right; display: block; margin-right: 10px;"></a></p>
+            	<h5><a href="http://www.byjeff.nl/#info">info</a></h5>
+                <h5><a href="http://www.byjeff.nl/#cases">werk</a></h5>
+                <h5><a href="http://www.byjeff.nl/#contactinfo">contact</a></h5>
+                <div id="contactmenu">
+                <p class="blue"><a href="mailto:info@byjeff.nl" target="_top">info@byjeff.nl</a></p>
+				<p class="number">+31 (0)6 53 87 27 92</p>
+                </div>
+        	</div>
+    
+    		<script src="./Jeffrey van der Loop - Design & Development_files/jquery.pageslide.min.js"></script>
+    		<script>
+       		/* Default pageslide, moves to the right */
+        	$(".first").pageslide();
+        
+       		/* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+       		$(".second").pageslide({ direction: "left", modal: true });
+    		</script>
+            
+            </div>
+        </div>
+    </div>
+
+    <div id="paperplane_wrap">
+    	<div id="horizontal" style="top: -2943px; left: 2993px;"><img src="./Jeffrey van der Loop - Design & Development_files/paperplane.png" alt="Plane"></div>
+        <div id="horizontalfix"><img src="./Jeffrey van der Loop - Design & Development_files/paperplane.png" alt="Plane"></div>
+    </div>
+
+    <div id="header_wrap">
+    	<div id="headertext">
+        <h1 class="beige_bold">Hallo, ik ben Jeffrey van der Loop.</h1>
+        <h1 class="beige">Een 25 jarige grafisch ontwerper en web developer.</h1>
+        </div>
+    </div>
+    
+	<div id="diensten_wrap">
+    <a name="info" class="anchor"></a>
+		<div id="diensten">
+            <div id="item_tekst">
+        	<h1 class="grey">Mijn focus ligt op het creëren van</h1>
+        	<h1 class="black">functionele ontwerpen met oog voor detail.</h1>
+            <h3>Vanuit ‘s-Hertogenbosch houd ik me al een aantal jaren bezig met alles wat met web en print te maken heeft. Van huisstijl ontwerp tot aan webdesign en development.</h3>
+            </div>
+			<div id="diensten_info_1">
+			<div id="diensten_icon"><img alt="Branding" src="./Jeffrey van der Loop - Design & Development_files/byjeff_branding.png"><h2>Branding</h2></div>Elk merk is uniek. Ik doe onderzoek naar de kernwaarden van een merk en vorm op basis daarvan een identiteit die de juiste boodschap kan overbrengen aan het publiek.
+            </div>
+        	<div id="diensten_info_2">
+			<div id="diensten_icon"><img alt="Web" src="./Jeffrey van der Loop - Design & Development_files/byjeff_print.png"><h2>Print design</h2></div>Van brochures tot uitnodigingen en van fotografie tot copywriting. Tastbare producten zijn nog steeds van belang om een merk de juiste aandacht te geven in deze tijd. 
+            </div>
+            <div id="diensten_info_3">
+			<div id="diensten_icon"><img alt="Print" src="./Jeffrey van der Loop - Design & Development_files/byjeff_web.png"><h2>Web &amp; interactief</h2></div>interactie is belangrijk om een band met het publiek op de bouwen. Ik ontwerp en ontwikkel websites die aansluiten bij de identiteit en kernwaarden van een merk.
+            </div>
+        </div>
+    </div>
+    
+    <div id="werk_wrap">
+    <a name="cases" class="anchor"></a>
+        <div id="werk">
+			<div id="item_tekst">
+        	<h1 class="grey">Van drukwerk tot online winkels</h1>
+        	<h1 class="black">bekijk de projecten waar ik aan heb gewerkt.</h1>
+            <h3>Een selectie van mijn werk, gemaakt tussen 2011 — 2015.<br>Meer projecten volgen.</h3>
+            </div>
+            <a href="http://www.byjeff.nl/#case_7a"><div id="case7" class="case_left">
+            	<div id="nieuw"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/nieuw.png" alt="Nieuw" width="100%"></div>
+           		<div id="case_hover"><div id="details"><h1>Euser Transport</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/euser_speciaal_transport_1.jpg" alt="ByJeff" width="100%"></div>
+           	</div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_8a"><div id="case8" class="case_left">
+           		<div id="nieuw"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/nieuw.png" alt="Nieuw" width="100%"></div>
+           		<div id="case_hover"><div id="details"><h1>Echt Ellen</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/echtellen_coaching_1.jpg" alt="ByJeff" width="100%"></div>
+           	</div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_9a"><div id="case9" class="case_right">
+            	<div id="nieuw"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/nieuw.png" alt="Nieuw" width="100%"></div>
+           		<div id="case_hover"><div id="details"><h1>Kapsalon Valley's</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/kapsalon_valleys_1.jpg" alt="ByJeff" width="100%"></div>
+           	</div>
+            </a>
+        	<a href="http://www.byjeff.nl/#case_1a"><div id="case1" class="case_left">
+           		<div id="case_hover"><div id="details"><h1>Erasmus MC</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/erasmusmc_1.jpg" alt="ByJeff" width="100%"></div>
+           	</div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_2a"><div id="case2" class="case_left">
+            	<div id="case_hover"><div id="details"><h1>Units Sneakers</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/units_4.jpg" alt="ByJeff" width="100%"></div>
+            </div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_3a"><div id="case3" class="case_right">
+           		<div id="case_hover"><div id="details"><h1>NVvH</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/nvvh_1.jpg" alt="ByJeff" width="100%"></div>
+           	</div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_5a"><div id="case5" class="case_left">
+            	<div id="case_hover"><div id="details"><h1>van Schijndel</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/vanschijndel_1.jpg" alt="ByJeff" width="100%"></div>
+            </div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_4a"><div id="case4" class="case_left">
+            	<div id="case_hover"><div id="details"><h1>Angelie Denis</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/angelie_1.jpg" alt="ByJeff" width="100%"></div>
+            </div>
+            </a>
+            <a href="http://www.byjeff.nl/#case_6a"><div id="case6" class="case_right">
+            	<div id="case_hover"><div id="details"><h1>Overig</h1></div></div>
+            	<div id="case_image"><img class="rounded" src="./Jeffrey van der Loop - Design & Development_files/trouwkaart2.jpg" alt="ByJeff" width="100%"></div>
+            </div>
+            </a>
+        </div>
+    </div>
+    
+        <div id="case_7" style="display:none;">
+        <a name="case_7a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Euser Speciaal Transport</h2>Ontwerp en ontwikkeling van de nieuwe website van Euser Speciaal Transport in Heijnenoord (2015).
+                <a href="http://www.euser-speciaaltransport.nl/" target="_blank"><img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/euser_speciaal_transport_2.jpg" alt="ByJeff" width="100%"></a>
+                <a href="http://www.euser-speciaaltransport.nl/" target="_blank"><img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/euser_speciaal_transport_3.jpg" alt="ByJeff" width="100%"></a>
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton7">sluit</div></a>
+      		</div>
+        	</div>
+            
+        <div id="case_8" style="display:none;">
+        <a name="case_8a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Echt Ellen Sprankelende Coaching</h2>Logo en huisstijl voor persoonlijke coach Ellen uit Den Bosch (2015).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/echtellen_coaching_1.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/echtellen_coaching_2.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton8">sluit</div></a>
+       		</div>
+            </div>
+            
+        <div id="case_9" style="display:none;">
+        <a name="case_9a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Kapsalon Valley's</h2>Logo, huisstijl, belettering en reclameuitingen voor Kapsalon Valley's in Den Bosch (2014).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/kapsalon_valleys_1.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/kapsalon_valleys_2.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/kapsalon_valleys_3.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/kapsalon_valleys_4.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton9">sluit</div></a>
+       		</div>
+            </div>
+    
+        <div id="case_1" style="display:none;">
+        <a name="case_1a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Erasmus MC</h2>Logo voor de Maatschap Plastische Chirurgie van het Erasmus MC + SFG (2015).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/erasmusmc_3.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/erasmusmc_2.jpg" alt="ByJeff" width="100%">
+                <br><br>Patiëntenwebsite voor de afdeling handchirurgie van het Erasmus MC + SFG (binnenkort online).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/centrumhandpols_1.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/centrumhandpols_2.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton">sluit</div></a>
+       		</div>
+            </div>
+        
+        <div id="case_2" style="display:none;">
+        <a name="case_2a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Units Sneakers</h2>Logo, promotiemateriaal en webshop voor Units Sneakers in Schijndel (2014).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/units_3.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/units_4.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.units-sneakers.nl/" target="_blank"><img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/units_1.jpg" alt="ByJeff" width="100%"></a>
+                <a href="http://www.units-sneakers.nl/" target="_blank"><img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/units_2.jpg" alt="ByJeff" width="100%"></a>
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton2">sluit</div></a>
+      		</div>
+        	</div>
+        
+        <div id="case_3" style="display:none;">
+        <a name="case_3a" class="anchor"></a>
+       		<div id="casewrapper">
+            	<h2>Nederlandse Vereniging voor Handchirurgie</h2>Logo en website voor de Nederlandse Vereniging voor Handchirurgie (2013).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/nvvh_2.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/nvvh_3.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton3">sluit</div></a>
+       		</div>
+        	</div>
+        
+        <div id="case_4" style="display:none;">
+        <a name="case_4a" class="anchor"></a>
+       		<div id="casewrapper">
+            	<h2>Angelie Denis</h2>Logo, huisstijl en website voor interieurstyliste Angelie Denis (2012).
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/angeliedenis_1.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/angeliedenis_3.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.angeliedenisstyling.nl/" target="_blank"><img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/angelie_2.jpg" alt="ByJeff" width="100%"></a>
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton4">sluit</div></a>
+        	</div>
+            </div>
+            
+        <div id="case_5" style="display:none;">
+        <a name="case_5a" class="anchor"></a>
+       		<div id="casewrapper">
+            	<h2>van Schijndel</h2>Logo, website en promovideo voor van Schijndel Vlecht- en Buigcentrale (2011).
+                <iframe class="video" src="./Jeffrey van der Loop - Design & Development_files/57700186.html" frameborder="0" style="margin: 30px 0px 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/vanschijndel_2.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton5">sluit</div></a>
+        	</div>
+            </div>
+            
+        <div id="case_6" style="display:none;">
+        <a name="case_6a" class="anchor"></a>
+        	<div id="casewrapper">
+            	<h2>Overig</h2>Losse projecten waar ik de afgelopen tijd aan heb gewerkt.
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/trouwkaart_1.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/trouwkaart_2.jpg" alt="ByJeff" width="100%">
+                <img class="caserounded" src="./Jeffrey van der Loop - Design & Development_files/essentie_1.jpg" alt="ByJeff" width="100%">
+                <a href="http://www.byjeff.nl/#cases"><div id="closebutton6">sluit</div></a>
+       		</div>
+            </div>
+    
+    <div id="contact_wrap">
+    <a name="contactinfo" class="anchor"></a>
+    	<div id="contact">
+        	<div id="profile"><img src="./Jeffrey van der Loop - Design & Development_files/foto.png" alt="ByJeff"></div>
+            <div id="item_tekst">
+        	<h1 class="grey">Geïnteresseerd? Neem contact op voor</h1>
+        	<h1 class="black">vragen, ideeën of een mogelijke samenwerking.</h1>
+            <h3>Ik ben maandag t/m vrijdag telefonisch bereikbaar van 09:00 tot 17:00. Vragen bij voorkeur via e-mail. Ik hoor graag van je.</h3><br><br>
+            <h2><a href="mailto:info@byjeff.nl" target="_top">info@byjeff.nl</a></h2>
+            <h4>+31 (0)6 53 87 27 92</h4>
+            </div>
+		</div>
+    </div>
+    
+    <div id="footer_wrap">
+    	<div id="footer">© 2015 Jeffrey van der Loop</div>
+    </div>
+    
+    <div id="topbutton"><a href="http://www.byjeff.nl/#wrapper"><img width="100%" src="./Jeffrey van der Loop - Design & Development_files/top.png"></a></div>
+         
+</div><div id="pageslide" style="left: auto; right: 0px; display: block;"><div id="modal" style="display: block;">
+            	<p><a href="javascript:$.pageslide.close()"><img class="closemenu" alt="close" src="./Jeffrey van der Loop - Design & Development_files/sluit.png" style="float: right; display: block; margin-right: 10px;"></a></p>
+            	<h5><a href="http://www.byjeff.nl/#info">info</a></h5>
+                <h5><a href="http://www.byjeff.nl/#cases">werk</a></h5>
+                <h5><a href="http://www.byjeff.nl/#contactinfo">contact</a></h5>
+                <div id="contactmenu">
+                <p class="blue"><a href="mailto:info@byjeff.nl" target="_top">info@byjeff.nl</a></p>
+				<p class="number">+31 (0)6 53 87 27 92</p>
+                </div>
+        	</div></div>
+
+
+
+</body></html>

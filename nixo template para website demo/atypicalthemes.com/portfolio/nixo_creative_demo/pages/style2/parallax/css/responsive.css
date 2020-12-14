@@ -1,0 +1,111 @@
+/*------------------------------------------------------------------
+[Media Queries Stylesheet]
+
+Author: AtypicalThemes
+Template: Nixo - Creative Agency OnePage.
+Version:	1.0
+Last change:	11/22/2016
+
+-------------------------------------------------------------------
+
+/* --------------------------- /////////// MEDIA QUERIES /////////// --------------------------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 320px) and (max-width : 639px ) {
+    .icon-wrapper i {
+        font-size: 5em;
+        margin-right: 15px;
+    }
+    .icon-wrapper i.align-left {
+        margin-left: 15px;
+    }
+    .stats-block {
+        display: block;
+        width: 50%;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hero-caption {
+        border: none;
+    }
+    .tagline {
+        font-size: 2.5rem;
+    }
+}
+/* High End Smartphones (portrait and landscape) ----------- */
+@media (min-width : 640px) {   
+    
+}
+/* Medium devices ----------- */ 
+@media (min-width : 994px) {
+    .card {
+        margin-left: 25px;
+    }
+    .control-left {
+        top: 50%;
+    }
+    .control-right {
+        top: 50%;
+    }
+    .padded-right {
+        padding-right: 10%;
+    }
+    .padded-left {
+        padding-left: 10%;
+    }
+}
+/* High end tablets and small desktops ----------- */
+@media (max-width : 1024px) {
+    .container {
+        padding: 0 5% 0 5%;
+    }
+    .hero-caption {
+        margin-top: 25%;
+    }
+    .section-heading {
+        padding: 0 5% 0 5%;
+    }
+    #services-section-1 .col-md-4 {
+        margin-bottom: 4em;
+    }
+    .add-service-wrap {
+        width: 100%;
+    }
+    input {
+        margin-bottom: 20px;
+    }
+    #footer {
+        height: auto 
+    }
+    #copyright {
+        text-align: center;
+        float: none; 
+    }
+    .social-links {
+        float: none;  
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0;
+    }
+    .service-item {
+        margin: 10% auto;
+    }
+    .testimonial-img {
+        display: none;
+    }
+    .testimonial-wrapper {
+        text-align: center;
+    }
+    .panel {
+        margin-bottom: 10%;
+    }
+    .large-margin {
+        margin-bottom: 6em; /* 100px */
+    }
+    #contact-section p {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+}

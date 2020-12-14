@@ -1,0 +1,247 @@
+
+section.main-bg {
+	min-height: 660px;
+	background-color: #303046;
+}
+.landing_title h1{
+	font-size: 2.55rem;
+}
+.landing_title{
+	padding-left: 50px;
+}
+
+.index-h-buttons {
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: CircularStd-Black;
+	letter-spacing: 0.6px;
+	transition: all 0.2s ease-in-out;
+}
+
+.trans {
+	background-color: transparent !important;
+	padding-right: 30px;
+	padding-left: 0px;
+}
+
+.trans:HOVER {
+	color: #e83f53;
+}
+
+.trans1{
+	background-color: transparent;
+	color: white;
+	letter-spacing: 0.6px;
+	margin: 0;
+	border: 1px solid #fff;
+	margin-top: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.trans1:hover{
+	background-color: white;
+	border: 1px solid #fff;
+	color: #303146;
+}
+
+.trans1:focus{
+	background-color: transparent;
+	color: #fff;
+}
+.main-content{
+	margin-top: 60px;
+	padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 40em) {
+	.landing_title h1{
+		font-size: 2.15rem;
+	}
+	.landing_title{
+		padding-left: 0px;
+	}
+	.index-background-image{
+		width: 60%;
+	}
+}
+
+
+
+/* Testimonial */
+
+
+section.testimonial h2{
+
+	font-size: 27px;
+	font-family: CircularStd-Book;
+	text-align: center;
+	margin: 0;
+	padding-top: 50px;
+}
+
+section.testimonial {
+	background-color:#f2f2f2;
+}
+
+.testimonial_block{
+	background-color:#fff;
+
+}
+
+.testimonial_block p{
+	font-size: 20px;
+	font-family: 'CircularStd-Book';
+	letter-spacing: -0.05px;
+	color: #000;
+}
+
+.test-name{
+	margin-top: -60px;
+}
+
+.testimonial_block .pic{
+	width: 110px;
+	left: 50%;
+	margin-left: -55px;
+	top: -61px;
+}
+
+.testimonial_block p.text{
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+
+.testimonial_block span.designation{
+	display: block;
+	color: #777777;
+	font-size: 15px;
+}
+
+
+div.slider{
+	background: #f2f2f2;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	position: relative;
+	background-size: 15%;
+	min-height: 415px;
+}
+
+
+
+
+
+
+.slick-next:hover,.slick-prev:hover{
+	opacity: 1;
+}
+
+
+.slick-prev,.slick-next{
+	display: none !important;
+}
+
+
+
+
+
+
+div.slider div{
+	position: relative;
+	margin-top: 10px;
+
+}
+
+
+
+.testimonial_block.slick-center{
+	box-shadow: 0px 7px 12px rgba(187, 187, 187, 0.48);
+	opacity: 1;
+
+}
+
+.slick-slide{
+	cursor: pointer;
+	transform: scale(0.8);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease;;
+	opacity: 0.5;
+}
+
+
+
+.pic img{
+	width: 100px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+
+section.companies{
+	padding: 50px 0px;
+}
+
+.company-logos{
+	height: 25px;
+	margin-right: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 0.4;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	/* For Webkit browsers */
+	filter: gray;
+	/* For IE 6 - 9 */
+	-webkit-transition: all .6s ease;
+	/* Transition for Webkit browsers */
+}
+.dark-img{
+	opacity: 0.7;
+}
+.company-logos:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: none;
+}
+
+.adobe{
+	height: 40px;
+}
+
+/*tooltips*/
+
+.mytooltip{
+	position: relative;
+}
+
+.mytooltip:hover:after{
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+	font-size: 12px;
+}
+
+.mytooltip:hover:before{
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
+
+/* Testimonial  end*/

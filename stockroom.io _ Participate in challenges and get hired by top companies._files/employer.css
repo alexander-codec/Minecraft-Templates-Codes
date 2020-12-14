@@ -1,0 +1,308 @@
+
+.hiring_button{
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin: 0;
+    padding: 11px 23px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.hiring_button:hover{
+    background-color: white;
+    border: 1px solid #fff;
+    color: #303146;
+}
+
+.hiring_button:focus{
+    background-color: transparent;
+    color: #fff;
+}
+
+.employer-header {
+    padding-top: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+
+
+
+
+
+.masthead {
+
+
+margin-top: -130px;
+    width: 100%;
+    min-height: 500px;
+    padding-top: 150px;
+    background: url("../img/bg_emp.jpg") no-repeat 50% 50%;
+    background-size: cover;
+
+    text-align: center; }
+
+.emp_logo {
+    width: 100%;
+    max-width: 300px;
+    z-index: 0; }
+
+/*# sourceMappingURL=style.min.css.map */
+
+
+.small-9.small-centered.columns{
+    margin-top: 90px;
+}
+
+.row.offline, .row.tech_assessment, .row.contest{
+    margin-top: 60px;
+
+}
+
+section.emp_main {
+    min-height: 500px;
+    background-image: url("../img/bg_emp.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-color: #303046;
+}
+
+.masthead h1 {
+    padding-top: 50px;
+    color: white;
+    font-family: CircularStd-Book;
+
+}
+
+.masthead p{
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+section.whyus{
+    font-family: CircularStd-Book;
+    padding-bottom: 60px;
+}
+
+section.whyus h3{
+    font-size: 22px;
+    font-family: CircularStd-Book;
+}
+
+section.whyus p {
+    line-height: 1.4;
+    font-size: 15px;
+    font-family: 'CircularStd-Book';
+    color: #a7a7a7;
+    letter-spacing: -0.05px;
+}
+
+section.whyus img{
+    text-align: center;
+}
+
+
+
+
+section.facts{
+    background-color: #e83f53;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+
+
+section.facts img{
+    width: 63px;
+}
+
+section.facts p {
+    line-height: 1.4;
+    font-size: 15px;
+    font-family: 'CircularStd-Book';
+    color: #fff;
+    letter-spacing: -0.05px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* Companies css */
+
+
+section.contact  .small-11.contact{
+    background-color: #f5f5f5;
+    padding: 18px 20px;
+    margin-bottom: 50px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+}
+
+section.contact p{
+    font-size: 20px;
+    color: #000;
+}
+
+section.contact span{
+    color: #7f7f7f;
+    font-size: 15px;
+}
+
+
+
+
+div.mail{
+    background: url("../img/mail.png") no-repeat;
+    background-size: 50px;
+    padding-left: 66px;
+}
+
+
+div.phone{
+    background: url("../img/phone.png") no-repeat;
+    background-size: 50px;
+    padding-left: 66px;
+}
+
+
+.medium-3.columns.mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 40em) {
+
+    section.facts .medium-4{
+        margin-top: 35px;
+
+    }
+
+    section.facts .medium-4:first-child{
+        margin-top: 0px;
+    }
+
+    div.phone, div.mail{
+        margin-top: 20px;
+    }
+
+    .img_emp{
+        text-align: center;
+    }
+
+    .medium-3.columns.desktop{
+        display: none;
+    }
+
+    .medium-3.columns.mobile{
+        display: block;
+    }
+
+    section.whyus{
+        text-align: center;
+    }
+
+    .row.online img, .row.tech_assessment img{
+        margin-bottom: 15px;
+    }
+
+    .masthead{
+        padding-top: 120px;
+    }
+
+    .top-bar{
+        padding-top:0 !important;
+    }
+
+    .emp_logo{
+        width:130px !important;
+    }
+
+
+}
+
+
+
+.contain-to-grid.fixed, .top-bar, ul.right, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
+    background: transparent;
+}
+
+.top-bar{
+    padding-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.top-bar ul li a{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: CircularStd-Black;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.top-bar-section ul li>button{
+    background-color: #e83f53 !important;
+}
+
+.top-bar-section ul li>button:hover{
+    background-color:#BD404F !important;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+    background: transparent;
+}
+
+
+
+
+
+.nav-up .top-bar {
+    padding-top: 0px;
+
+}
+
+.emp_logo{
+    width:200px;
+}
+
+.contain-to-grid.fixed.nav-up{
+    background: #303046;
+    transition: all 0.2s ease-in-out;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contain-to-grid.fixed.nav-down{
+    margin-top: -80px;
+    background: #303046;
+    transition: all 0.2s ease-in-out;
+}
+
+.contain-to-grid.fixed.nav-down.reachedTop{
+    margin-top: 0px;
+    background: transparent;
+}
+
+.contain-to-grid.fixed.nav-down.reachedTop .emp_logo{
+    width: 200px;
+
+}
+
+.contain-to-grid.fixed.nav-up .emp_logo, .contain-to-grid.fixed.nav-down .emp_logo{
+    width: 150px;
+}
+
+
+
+
+
+

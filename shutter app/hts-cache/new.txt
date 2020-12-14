@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+21:20:29	25479/25479	---M-Z	200	added ('OK')	text/html	etag:%226387-535e1c31e2640-gzip%22	http://www.codnauts.com/themes/shuttle/index.html	C:/Meus%20Sites/shutter%20app/www.codnauts.com/themes/shuttle/index.html	(from )
+21:20:29	81/81	---M--	200	added ('OK')	text/plain	etag:%2251-535c870a2c4c0%22	http://www.codnauts.com/robots.txt		(from )
+21:20:30	51284/51284	---MCZ	200	added ('OK')	text/css	date:Sun,%2021%20Aug%202016%2002:54:44%20GMT	http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css	C:/Meus%20Sites/shutter%20app/code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css	(from http://www.codnauts.com/themes/shuttle/index.html)
